@@ -1,15 +1,14 @@
-body,html {
-    background-color: #E4DEDB;
+body, html {
+   color: black;
 }
 
 header {
-    border-bottom: 0.1em solid gray;
+    border-bottom: 0.2em solid gray;
+    box-shadow: #d3531a;
 }
 
 .bg-trafo {
-    background-color: #F0F0F0 !important;
     width: 100vw;
-
 }
 
 .dropdown-item {
@@ -48,6 +47,7 @@ header {
     left: 0;
     transform: rotate(0deg);
     transition: .25s ease-in-out;
+    padding: 5rem;
 }
 
 .middle-bar {
@@ -84,7 +84,18 @@ header {
     transform: rotate(0deg);
 }
 
-.navbar-toggler.collapsed .toggler-icon {
-    background-color: gray;
+.nav-item {
+    padding: 0.5rem;
 }
-
+.nav-item:active {
+    color: #d3531a;
+}
+.logo {
+    position: flex;
+    margin: 0 auto;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    width: 10vh;
+    height: 5vh;
+    border-radius: 10px solid grey;
+}
